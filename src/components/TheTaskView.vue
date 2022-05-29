@@ -2,10 +2,10 @@
     <div id="title" class=" relative py-8 h-full ">
         <div class="flex py-4 text-3xl text-neutral-300 justify-center">
             <div class="px-4"> {{this.$store.state.current.month}} </div>
-            <div> {{new Date().getDate()}} </div>
+            <!-- <div> {{new Date().getDate()}} </div> -->
         </div>
         <div>
-            {{test}}
+            <!-- {{test}} -->
         </div>
     </div>
 </template>
